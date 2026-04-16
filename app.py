@@ -22,3 +22,5 @@ def review(request: Request, code: str = Form(...)):
         "request": request,
         "result": result
     })
+
+print("working")
